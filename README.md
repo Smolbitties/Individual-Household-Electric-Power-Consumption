@@ -31,6 +31,21 @@ The dataset contains a few missing values that have been handled using forward f
 3. **Data Visualization**:
    - Creating interactive charts and graphs using **Power BI** and **Tableau** to visually represent power usage trends and highlight anomalies.
 
-## Project Structure
-The project includes the following files and folders:
+
+## Tools & Technologies
+- **Languages**: Python (Pandas, NumPy)
+- **Visualization Tools**: Power BI, Tableau, Matplotlib, Seaborn
+- **Others**: Jupyter Notebooks, Git, GitHub
+
+## Key Insights
+- **Global_active_power** consumption shows strong seasonal patterns with peaks during winter months.
+- **Sub_metering_3** (electric water heater and AC) has the highest energy usage, especially during the summer.
+- **Correlation analysis** reveals that `Global_active_power` is highly correlated with `Global_intensity` and `Voltage`.
+
+## How to Run
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Smolbitties/Individual-Household-Electric-Power-Consumption.git
+
+This README is tailored for the project and provides an overview of the goals, tools, structure, and insights. You can paste this directly into your `README.md` file!
 
